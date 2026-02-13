@@ -29,4 +29,103 @@ Built entirely in Python with a modular architecture.
 
 # Getting Started
 
+Prerequisites 
+
+● Python 3.0
+
+● MongoDB
+
+● OpenAI Whisper
+
+# Setup 
+
+    # Clone
+
+    git clone https://github.com/tabiramir/Agentic-Framework-An-Intent-Driven-Multi-Agent-Computing-Environment.git
+
+    cd Agentic-Framework-An-Intent-Driven-Multi-Agent-Computing-Environment
+
+    # Create Virtual Environment
+
+    python -m venv venv
+
+    source venv/bin/activate      # Mac/Linux
+
+    venv\Scripts\activate         # Windows
+
+    # Install Dependencies
+
+    pip install -r requirements.txt
+
+    # Download spaCy model
+
+    python -m spacy download en_core_web_sm
+
+# Download OpenAi Whisper
+
+    pip install git+https://github.com/openai/whisper.git 
+
+It also requires the command-line tool ffmpeg to be installed on your system, which is available from most package managers:
+
+    # on Ubuntu or Debian
+    sudo apt update && sudo apt install ffmpeg
+
+    # on Arch Linux
+    sudo pacman -S ffmpeg
+
+    # on MacOS using Homebrew (https://brew.sh/)
+    brew install ffmpeg
+
+    # on Windows using Chocolatey (https://chocolatey.org/)
+    choco install ffmpeg
+
+    # on Windows using Scoop (https://scoop.sh/)
+    scoop install ffmpeg
+
+# Running
+
+     # GUI Mode
+
+     python app_nicegui.py
+
+     # Terminal
+
+     python main.py
+
+# Examples
+
+● “Hey Agent, open Firefox”
+
+● “Remind me to submit the report at 3 PM”
+
+● “Search for multi-agent systems research”
+
+● “Close Spotify”
+
+● “Read my latest email”
+
+# Why It’s Different
+
+● Multi-agent orchestration
+
+● Offline speech recognition
+
+● Intent-driven execution
+
+● Modular architecture
+
+● Real-time GUI
+    
+# Future Improvements
+
+● LLM-based reasoning layer
+
+● Adaptive memory learning
+
+● IoT device integration
+
+● Reinforcement-learning planner
+
+
+
 
