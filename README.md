@@ -3,7 +3,8 @@
 A Voice-Enabled Multi-Agent System
 Transforming traditional computing into an intelligent, intent-driven operating environment.
 
-What is Agentic Framework?
+
+# What is Agentic Framework?
 
 It is a speech-enabled, multi-agent system prototype that allows users to interact with their computer using natural language. Instead of manually switching between apps, the system: 
 Understands your intent
@@ -12,61 +13,20 @@ Coordinates specialized agents
 Executes tasks autonomously
 Built entirely in Python with a modular architecture.
 
-→ Key Features
+# Key Features
 
-🎙 Voice-First Interaction
+● Voice-First Interaction - Wake word activation (“Hey Agent”), Real-time Voice Activity Detection (VAD), Whisper-based offline speech recognition, Text-to-speech responses
 
-● Wake word activation (“Hey Agent”)
+● Multi-Agent Architecture - Planner Agent (central coordinator), Reminder Agent, File Manager Agent, Web Search Agent, Mail Agent (Gmail integration), Booking Agent, Browser Control Agent, Process Monitor Agent, Sleep / Wake Control Agent, App Close Agent
 
-● Real-time Voice Activity Detection (VAD)
+● Intelligent NLP Pipeline - Intent refinement engine, nlu, Entity extraction (spaCy), Fuzzy matching (RapidFuzz), Date parsing (dateparser), Structured command normalization
 
-● Whisper-based offline speech recognition
+● Real-Time GUI (NiceGUI) - Live transcription, Siri-style audio animation, Agent state visualization, Structured logs
 
-● Text-to-speech responses
+# Architecture Overview
 
-🧩 Multi-Agent Architecture
+![PHOTO-2025-11-10-10-31-52](https://github.com/user-attachments/assets/cb3a45eb-2cb8-4846-9f74-1f72a26a21e7)
 
-● Planner Agent (central coordinator)
+# Getting Started
 
-● Reminder Agent
-
-● File Manager Agent
-
-● Web Search Agent
-
-● Mail Agent (Gmail integration)
-
-● Booking Agent
-
-● Browser Control Agent
-
-● Process Monitor Agent
-
-● Sleep / Wake Control Agent
-
-● App Close Agent
-
-🧠 Intelligent NLP Pipeline
-
-● Intent refinement engine 
-
-● nlu
-
-● Entity extraction (spaCy)
-
-● Fuzzy matching (RapidFuzz)
-
-● Date parsing (dateparser)
-
-● Structured command normalization
-
-🖥 Real-Time GUI (NiceGUI)
-
-● Live transcription
-
-● Siri-style audio animation
-
-● Agent state visualization
-
-● Structured logs
 
